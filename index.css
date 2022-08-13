@@ -1,3 +1,32 @@
-body{
-    background-color: #363534;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #242424;
+}
+
+li{
+    float: left;
+    border-right: 1px solid white;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+li a:hover:not(.active){
+    background-color: #4d4c4c;
+}
+
+.active{
+    background-color: #e0c04c;
 }
